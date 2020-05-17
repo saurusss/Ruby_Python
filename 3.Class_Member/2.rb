@@ -1,5 +1,5 @@
 class Cs
-    def Cs.class_method()
+    def Cs.class_method() 
         p "Class method"
     end
     def instance_method()
@@ -7,7 +7,7 @@ class Cs
     end
 end
 i = Cs.new()
-Cs.class_method()
+Cs.class_method()    
 i.instance_method()
 #Cs.instance_method() -> 오류 발생
 # i.class_method()    -> 오류 발생 

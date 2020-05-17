@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}"
         },
-		 {
+		{
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
@@ -21,7 +21,7 @@
             "name": "Python: All debug Options",
             "type": "python",
             "request": "launch",
-            "pythonPath": "${config:python.pythonPath}",
+            "pythonPath": "${config:python.interpreterPath}",
             "program": "${file}",
             "module": "module.name",
             "env": {
@@ -32,9 +32,6 @@
             "args": [
                 "arg1",
                 "arg2"
-            ],
-            "debugOptions": [
-                "RedirectOutput"
             ]
         }
     ]
