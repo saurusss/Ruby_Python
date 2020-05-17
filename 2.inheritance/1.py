@@ -8,4 +8,4 @@ class Class3(Class1):
     def method2(self): return'm2'
 c3 = Class3()
 print (c3, c3.method1())
-print (c3, c3.method1())
+print (c3, c3.method2())
